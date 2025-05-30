@@ -30,7 +30,7 @@ This project provides a clean and professional template for creating a personal 
 
 ## Deployment
 
-This repository is configured to automatically deploy to GitHub Pages using GitHub Actions. The live site is available at: https://liana-gukasyan.github.io/cv-test/
+This repository is configured to automatically deploy to GitHub Pages using GitHub Actions. The live site is available at: https://liana-gukasyan-test-2025.github.io/cv-test/
 
 ### How it works:
 
