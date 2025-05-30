@@ -35,8 +35,8 @@ This repository is configured to automatically deploy to GitHub Pages using GitH
 ### How it works:
 
 1. When you push changes to the `main` branch, a GitHub Actions workflow will automatically deploy the site
-2. The workflow creates a `gh-pages` branch containing the website files
-3. GitHub Pages serves the content from this branch
+2. The workflow uses GitHub's official Pages actions to build and deploy the site
+3. GitHub Pages serves the content directly from your repository
 
 ### Manual Setup:
 
@@ -44,9 +44,9 @@ If you need to set up GitHub Pages manually:
 
 1. Go to your repository on GitHub
 2. Navigate to Settings > Pages
-3. Under "Source", select "Deploy from a branch"
-4. Select the `gh-pages` branch and the root folder
-5. Click Save
+3. Under "Source", select "GitHub Actions"
+4. If prompted, select the "Static HTML" workflow
+5. Click "Configure" and commit the workflow file to your repository
 
 ## Customization
 
