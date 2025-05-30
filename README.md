@@ -26,7 +26,27 @@ This project provides a clean and professional template for creating a personal 
 1. Clone or download this repository
 2. Open `index.html` and replace the placeholder information with your own details
 3. Customize the `styles.css` file to match your personal preferences
-4. Host the website on your preferred platform (GitHub Pages, Netlify, etc.)
+4. Deploy the website using GitHub Pages (see deployment section below) or host on your preferred platform
+
+## Deployment
+
+This repository is configured to automatically deploy to GitHub Pages using GitHub Actions. The live site is available at: https://liana-gukasyan.github.io/cv-test/
+
+### How it works:
+
+1. When you push changes to the `main` branch, a GitHub Actions workflow will automatically deploy the site
+2. The workflow creates a `gh-pages` branch containing the website files
+3. GitHub Pages serves the content from this branch
+
+### Manual Setup:
+
+If you need to set up GitHub Pages manually:
+
+1. Go to your repository on GitHub
+2. Navigate to Settings > Pages
+3. Under "Source", select "Deploy from a branch"
+4. Select the `gh-pages` branch and the root folder
+5. Click Save
 
 ## Customization
 
